@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "332951786253",
+    "project_id": "bestlady-ef4ad",
+    "storage_bucket": "bestlady-ef4ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332951786253:android:bf8a89498a2d2e1481d644",
+        "android_client_info": {
+          "package_name": "com.com.bestlady"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332951786253-0498j95rjpmippbcpgdcit6mglsv2bsu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.com.bestlady",
+            "certificate_hash": "9d9963942d063ff6ebbb023faeeca588684322ba"
+          }
+        },
+        {
+          "client_id": "332951786253-fv9v751nr31fpl65d5860iouuug7dmie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo_kFhOcoP1u5Uy48HKpu-l16sTvzazRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332951786253-fv9v751nr31fpl65d5860iouuug7dmie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

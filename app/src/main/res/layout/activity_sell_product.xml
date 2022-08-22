@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_layout"
+        tools:context=".ui.register.RegisterActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:id="@+id/app_bar"
+            android:theme="@style/ThemeOverlay.MaterialComponents.Light">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/sell_samaki_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <include layout="@layout/content_sell_product"
+            android:id="@+id/content_sell_samaki_ref"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

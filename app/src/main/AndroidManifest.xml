@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.com.bestlady">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bestlady"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bestlady"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.com.bestlady.ui.OrdersActivity"></activity>
+        <activity android:name="com.com.bestlady.ui.SellersProductsActivity" />
+        <activity
+            android:name="com.com.bestlady.ui.SplashActivity"
+            android:theme="@style/Theme.BestLady">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.com.bestlady.ui.HomeScreenActivity"
+            android:theme="@style/AppTheme.Launcher" />
+        <activity
+            android:name="com.com.bestlady.ui.SellSamaki"
+            android:parentActivityName="com.com.bestlady.ui.SellSamaki"
+            android:theme="@style/Theme.BestLady" />
+        <activity
+            android:name="com.com.bestlady.ui.IndividualActivity"
+            android:parentActivityName="com.com.bestlady.ui.IndividualActivity"
+            android:theme="@style/Theme.BestLady" />
+        <activity
+            android:name="com.com.bestlady.ui.CartActivity"
+            android:parentActivityName="com.com.bestlady.ui.CartActivity" />
+    </application>
+
+</manifest>

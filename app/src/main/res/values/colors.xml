@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E73B94</color>
+    <color name="colorPrimaryDark">#f156ab</color>
+    <color name="colorAccent">#fef9ef</color>
+    <color name="ratingLow">#D60000</color>
+    <color name="ratingMedium">#FFA500</color>
+    <color name="ratingHigh">#00A300</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#D9E1E8</color>
+    <color name="grey_text">#4c4c4d</color>
+    <color name="teal_color">#CAF7FD</color>
+</resources>
